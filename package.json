@@ -1,0 +1,38 @@
+{
+  "name": "an-cart-server-auth",
+  "version": "1.0.0",
+  "description": "It' a super cart server repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "prepare": "husky install",
+    "lint-staged": "npm run format:check && npm run lint:check",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nshaik/an-cart-server-auth.git"
+  },
+  "author": "AN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nshaik/an-cart-server-auth/issues"
+  },
+  "homepage": "https://github.com/nshaik/an-cart-server-auth#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "husky": "^8.0.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
