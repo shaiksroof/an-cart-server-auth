@@ -18,7 +18,11 @@
     "type": "git",
     "url": "git+https://github.com/nshaik/an-cart-server-auth.git"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },  
   "author": "AN",
+  "tkn": "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",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nshaik/an-cart-server-auth/issues"
